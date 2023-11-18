@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+.feed{
+	background-color: white;
+	margin: 10px 25px 0px 25px; 
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: darkcyan;
+  color: white;
+  padding: 12px 20px;
+	display: inline-block;
+  border: 1px thin black;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+	box-shadow: 0 2px #999;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.show {
+  float: left;
+  margin-top: 6px;
+}
+
+.write {
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

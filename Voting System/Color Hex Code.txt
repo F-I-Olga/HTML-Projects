@@ -1,0 +1,5 @@
+Orange: #FF7F01
+Black: #000000
+White: #FFFFFF
+Forest Green: #228B22
+Lime Green: #32CD32

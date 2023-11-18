@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* Form */
+.input_field{
+	padding: 13px;
+	border-radius: 7px;
+	font-size: 20px;
+}
+
+.btn{
+	padding: 8px;
+	border-radius: 7px;
+	width: 10%;
+	background-color: darkcyan;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+#register{
+	text-align: center;
+	background-color: #f1f1f1; 
+	padding-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	font-size: 20px;
+}
+
+#register a:hover {
+  background-color: #ddd;
+	color:black;
+}

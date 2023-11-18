@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>NVHS VOTING SYSTEM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <form class="input-group" id="login" action="php/login.php" method="post">
+                <input type="text" class="input-field" placeholder="Enter Student ID" name="id" required>
+                <input type="text" class="input-field" placeholder="Enter Password" name="pass" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log in</button>
+            </form>
+            <form class="input-group" id="register" action="php/register.php" method="post">
+                <input type="text" class="input-field" placeholder="Enter Student ID" name="id" required>
+                <input type="text" class="input-field" placeholder="Enter FirstName" name="fname" required>
+                <input type="text" class="input-field" placeholder="Enter LastName" name="lname" required>
+                <input type="email" class="input-field" placeholder="Enter Email" name="email" required>
+                <input type="text" class="input-field" placeholder="Enter Password" name="pass" required>
+                <input type="checkbox" class="check-box" required><span>I agree to <a href="#">the terms & conditions</a></span>
+                <button type="submit" class="submit-btn">Register</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementById("btn");
+
+        function register() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "110px";
+        }
+
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+    </script>
+</body>
+
+</html>
